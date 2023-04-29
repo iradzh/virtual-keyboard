@@ -1,6 +1,6 @@
 import { createBase } from "./js/createBase";
 import { renderKeyboard } from "./js/renderKeyboard";
-
+import { handlePhysicalKeyboardInput } from "./js/handlePhysicalKeyboardInput";
 window.onload = function () {
   createBase();
 
@@ -8,5 +8,6 @@ window.onload = function () {
     .then((response) => response.json())
     .then((data) => {
       renderKeyboard(data);
+      handlePhysicalKeyboardInput();
     });
 };
