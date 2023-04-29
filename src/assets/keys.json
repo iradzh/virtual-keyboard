@@ -2,37 +2,31 @@
   {
     "code": "KeyQ",
     "keyENG": "q",
-    "keyRU": "й",
-    "keyCode": "81"
+    "keyRU": "й"
   },
   {
     "code": "KeyW",
     "keyENG": "w",
-    "keyRU": "ц",
-    "keyCode": "81"
+    "keyRU": "ц"
   },
   {
     "code": "KeyE",
     "keyENG": "e",
-    "keyRU": "у",
-    "keyCode": "81"
+    "keyRU": "у"
   },
   {
     "code": "KeyR",
     "keyENG": "r",
-    "keyRU": "к",
-    "keyCode": "81"
+    "keyRU": "к"
   },
   {
     "code": "KeyT",
-    "keyENG": "q",
-    "keyRU": "е",
-    "keyCode": "81"
+    "keyENG": "t",
+    "keyRU": "е"
   },
   {
     "code": "KeyY",
     "keyENG": "y",
-    "keyRU": "н",
-    "keyCode": "81"
+    "keyRU": "н"
   }
 ]
