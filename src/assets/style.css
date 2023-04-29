@@ -1,5 +1,30 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-family: "Menlo", sans-serif;
+}
+
+.text-area {
+  font-size: 16px;
+  font-family: "Menlo", sans-serif;
+  padding: 10px;
+  border: 1px solid #de0000;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
 .keyboard-container {
   width: 80%;
   height: 200px;
-  border: 1px solid black;
+
+  border: 1px solid #de0000;
+  border-radius: 15px;
 }
