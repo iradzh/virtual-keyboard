@@ -4,6 +4,7 @@ export function renderKeyboard(keys) {
   keys.forEach((key) => {
     const button = document.createElement("button");
     button.innerText = key.keyENG;
+    button.style.width = key.width;
 
     button.setAttribute("data-code", key.code);
     button.classList.add("key");
