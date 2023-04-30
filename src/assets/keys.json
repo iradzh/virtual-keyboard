@@ -126,12 +126,6 @@
     "width": "50px"
   },
   {
-    "code": "KeyY",
-    "keyENG": "y",
-    "keyRU": "н",
-    "width": "50px"
-  },
-  {
     "code": "KeyU",
     "keyENG": "u",
     "keyRU": "г",
@@ -327,7 +321,7 @@
     "code": "ShiftLeft",
     "keyENG": "Shift",
     "keyRU": "Shift",
-    "width": "65px"
+    "width": "75px"
   },
   {
     "code": "ControlLeft",

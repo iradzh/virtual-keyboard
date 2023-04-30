@@ -35,6 +35,15 @@
   background-color: #dcfff8;
   border: 1px solid black;
   border-radius: 5px;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 0.3s;
   cursor: pointer;
+}
+
+.key:hover {
+  background-color: #699e93;
+}
+
+.key:active,
+.active {
+  background-color: #9f287d;
 }
