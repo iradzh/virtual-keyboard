@@ -14,7 +14,17 @@ export function renderKeyboard(keys) {
       const code = clickedButton.getAttribute("data-code");
       const textArea = document.querySelector(".text-area");
       const key = keys.find((k) => k.code === code);
-      textArea.value += key.keyENG;
+
+      if (code === "Space") {
+        textArea.value += " ";
+      } else if (code === "Backspace") {
+        textArea.value = textArea.value.slice(0, -1);
+      } else if (code === "Enter") {
+        textArea.value += "\n";
+      } else if (key && key.keyENG.match(/[a-zA-Z0-9]/)) {
+        // handle regular letters and digits
+        textArea.value += key.keyENG;
+      }
     });
 
     container.appendChild(button);

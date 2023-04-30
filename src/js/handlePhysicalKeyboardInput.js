@@ -3,30 +3,31 @@ export function handlePhysicalKeyboardInput() {
     event.preventDefault();
 
     const keyPressed = event.code;
-    console.log("keyPressed:", keyPressed);
     const keys = document.querySelectorAll(".key");
-    console.log("keys:", keys);
     const key = Array.from(keys).find(
       (k) => k.getAttribute("data-code") === keyPressed
     );
-    console.log("key:", key);
     const textArea = document.querySelector(".text-area");
     if (key) {
-      console.log("key.innerText:", key.innerText);
-      textArea.value += key.innerText;
+      if (key.getAttribute("data-code") === "Backspace") {
+        textArea.value = textArea.value.slice(0, -1);
+      } else if (key.getAttribute("data-code") === "Enter") {
+        textArea.value += "\n";
+      } else if (key.getAttribute("data-code") === "Space") {
+        textArea.value += " ";
+      } else {
+        textArea.value += key.innerText;
+      }
       key.classList.add("active");
     }
   });
 
   document.addEventListener("keyup", (event) => {
     const keyPressed = event.code;
-    console.log("keyPressed:", keyPressed);
     const keys = document.querySelectorAll(".key");
-    console.log("keys:", keys);
     const key = Array.from(keys).find(
       (k) => k.getAttribute("data-code") === keyPressed
     );
-    console.log("key:", key);
     if (key) {
       key.classList.remove("active");
     }

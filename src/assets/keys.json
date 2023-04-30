@@ -318,16 +318,10 @@
     "width": "48px"
   },
   {
-    "code": "ShiftLeft",
+    "code": "ShiftRight",
     "keyENG": "Shift",
     "keyRU": "Shift",
     "width": "75px"
-  },
-  {
-    "code": "ShiftLeft",
-    "keyENG": "fn",
-    "keyRU": "fn",
-    "width": "48px"
   },
   {
     "code": "ControlLeft",
