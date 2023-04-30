@@ -3,47 +3,58 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f7;
 }
 
-.title {
+.title,
+.subtitle {
+  font-family: "San Francisco", Arial, sans-serif;
   text-align: center;
-  font-family: "Menlo", sans-serif;
+  color: #000000;
+}
+.subtitle {
+  font-weight: 100;
 }
 
 .text-area {
-  /* font-size: 16px; */
   font-family: "Menlo", sans-serif;
   padding: 10px;
-  border: 1px solid #de0000;
-  border-radius: 15px;
+  border: none;
+  border-radius: 5px;
   background-color: #ffffff;
   margin: 0 auto;
   margin-bottom: 25px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .keyboard-container {
-  width: 842px;
-  height: 290px;
-  border: 1px solid #de0000;
-  border-radius: 15px;
+  width: 830px;
+  height: 280px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 3px 3px 4px 3px;
 }
 
 .key {
   margin: 3px;
   font-size: 15px;
   height: 50px;
-  background-color: #dcfff8;
-  border: 1px solid black;
+  border: none;
   border-radius: 5px;
   transition: all ease-in-out 0.3s;
   cursor: pointer;
+  color: #000000;
+  background-color: #f6f6f9;
 }
 
 .key:hover {
-  background-color: #699e93;
+  background-color: #d9d9df;
 }
 
 .key:active,
 .active {
-  background-color: #9f287d;
+  background-color: #cccccc;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

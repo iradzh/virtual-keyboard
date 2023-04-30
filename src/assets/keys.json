@@ -3,79 +3,79 @@
     "code": "Backquote",
     "keyENG": "`",
     "keyRU": "ё",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit1",
     "keyENG": "1",
     "keyRU": "1",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit2",
     "keyENG": "2",
     "keyRU": "2",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit3",
     "keyENG": "3",
     "keyRU": "3",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit4",
     "keyENG": "4",
     "keyRU": "4",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit5",
     "keyENG": "5",
     "keyRU": "5",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit6",
     "keyENG": "6",
     "keyRU": "6",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit7",
     "keyENG": "7",
     "keyRU": "7",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit8",
     "keyENG": "8",
     "keyRU": "8",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit9",
     "keyENG": "9",
     "keyRU": "9",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Digit0",
     "keyENG": "0",
     "keyRU": "0",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Minus",
     "keyENG": "-",
     "keyRU": "-",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Equal",
     "keyENG": "=",
     "keyRU": "=",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Backspace",
@@ -87,85 +87,85 @@
     "code": "Tab",
     "keyENG": "tab",
     "keyRU": "tab",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyQ",
     "keyENG": "q",
     "keyRU": "й",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyW",
     "keyENG": "w",
     "keyRU": "ц",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyE",
     "keyENG": "e",
     "keyRU": "у",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyR",
     "keyENG": "r",
     "keyRU": "к",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyT",
     "keyENG": "t",
     "keyRU": "е",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyY",
     "keyENG": "y",
     "keyRU": "н",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyU",
     "keyENG": "u",
     "keyRU": "г",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyI",
     "keyENG": "i",
     "keyRU": "ш",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyO",
     "keyENG": "o",
     "keyRU": "щ",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyP",
     "keyENG": "p",
     "keyRU": "з",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "BracketLeft",
     "keyENG": "[",
     "keyRU": "х",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "BracketRight",
     "keyENG": "]",
     "keyRU": "ъ",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "IntlBackslash",
     "keyENG": "\\",
     "keyRU": "ё",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "CapsLock",
@@ -177,67 +177,67 @@
     "code": "KeyA",
     "keyENG": "a",
     "keyRU": "ф",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyS",
     "keyENG": "s",
     "keyRU": "ы",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyD",
     "keyENG": "d",
     "keyRU": "в",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyF",
     "keyENG": "f",
     "keyRU": "а",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyG",
     "keyENG": "g",
     "keyRU": "п",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyH",
     "keyENG": "h",
     "keyRU": "р",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyJ",
     "keyENG": "j",
     "keyRU": "о",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyK",
     "keyENG": "k",
     "keyRU": "л",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyL",
     "keyENG": "l",
     "keyRU": "д",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Semicolon",
     "keyENG": ";",
     "keyRU": "ж",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Quote",
     "keyENG": "'",
     "keyRU": "э",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Enter",
@@ -255,67 +255,67 @@
     "code": "KeyZ",
     "keyENG": "z",
     "keyRU": "я",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyX",
     "keyENG": "x",
     "keyRU": "ч",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyC",
     "keyENG": "c",
     "keyRU": "с",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyV",
     "keyENG": "v",
     "keyRU": "м",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyB",
     "keyENG": "b",
     "keyRU": "и",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyN",
     "keyENG": "n",
     "keyRU": "т",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "KeyM",
     "keyENG": "m",
     "keyRU": "ь",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Comma",
     "keyENG": ",",
     "keyRU": "б",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Period",
     "keyENG": ".",
     "keyRU": "ю",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "Period",
     "keyENG": ".",
     "keyRU": "ю",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "ArrowUp",
     "keyENG": "↑",
     "keyRU": "↑",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "ShiftLeft",
@@ -324,15 +324,15 @@
     "width": "75px"
   },
   {
+    "code": "ShiftLeft",
+    "keyENG": "fn",
+    "keyRU": "fn",
+    "width": "48px"
+  },
+  {
     "code": "ControlLeft",
     "keyENG": "control",
     "keyRU": "control",
-    "width": "70px"
-  },
-  {
-    "code": "MetaLeft",
-    "keyENG": "command",
-    "keyRU": "command",
     "width": "70px"
   },
   {
@@ -342,10 +342,16 @@
     "width": "70px"
   },
   {
+    "code": "MetaLeft",
+    "keyENG": "command",
+    "keyRU": "command",
+    "width": "70px"
+  },
+  {
     "code": "Space",
     "keyENG": "space",
     "keyRU": "пробел",
-    "width": "260px"
+    "width": "200px"
   },
   {
     "code": "MetaRight",
@@ -363,18 +369,18 @@
     "code": "ArrowLeft",
     "keyENG": "←",
     "keyRU": "←",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "ArrowDown",
     "keyENG": "↓",
     "keyRU": "↓",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "ArrowRight",
     "keyENG": "→",
     "keyRU": "→",
-    "width": "50px"
+    "width": "48px"
   }
 ]
