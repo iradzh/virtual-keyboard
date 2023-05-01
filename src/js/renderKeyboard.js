@@ -3,7 +3,12 @@ export default function renderKeyboard(keys) {
 
   keys.forEach((key) => {
     const button = document.createElement("button");
-    button.innerText = key.keyENG;
+    if (key.keyENG === "") {
+      button.innerText = "\u00A0";
+    } else {
+      button.innerText = key.keyENG;
+    }
+
     button.style.width = key.width;
 
     button.setAttribute("data-code", key.code);
@@ -20,6 +25,22 @@ export default function renderKeyboard(keys) {
         textArea.value = textArea.value.slice(0, -1);
       } else if (code === "Enter") {
         textArea.value += "\n";
+      } else if (code === "Tab") {
+        textArea.value += "  ";
+      } else if (code === "CapsLock") {
+        textArea.value += " fix it ";
+      } else if (code === "ShiftLeft" || code === "ShiftRight") {
+        textArea.value += " fix it ";
+      } else if (
+        code === "ControlLeft"
+        || code === "Fn"
+        || code === "ControlRight"
+        || code === "AltLeft"
+        || code === "AltRight"
+        || code === "MetaLeft"
+        || code === "MetaRight"
+      ) {
+        textArea.value += "";
       } else if (key && key.keyENG.match(/[a-zA-Z0-9]/)) {
         textArea.value += key.keyENG;
       }

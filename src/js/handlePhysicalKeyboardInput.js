@@ -15,6 +15,29 @@ export default function handlePhysicalKeyboardInput() {
         textArea.value += "\n";
       } else if (key.getAttribute("data-code") === "Space") {
         textArea.value += " ";
+      } else if (key.getAttribute("data-code") === "Tab") {
+        textArea.value += "  ";
+      } else if (key.getAttribute("data-code") === "CapsLock") {
+        textArea.value += " fix it ";
+      } else if (
+        key.getAttribute("data-code") === "ShiftLeft"
+        || key.getAttribute("data-code") === "ShiftRight"
+      ) {
+        textArea.value += " fix it ";
+      } else if (
+        key.getAttribute("data-code") === "ControlLeft"
+        || key.getAttribute("data-code") === "ControlRight"
+        || key.getAttribute("data-code") === "MetaLeft"
+        || key.getAttribute("data-code") === "MetaRight"
+      ) {
+        textArea.value += "";
+      } else if (
+        key.getAttribute("data-code") === "AltLeft"
+        || key.getAttribute("data-code") === "AltRight"
+        || event.metaKey
+        || event.ctrlKey
+      ) {
+        // do nothing
       } else {
         textArea.value += key.innerText;
       }

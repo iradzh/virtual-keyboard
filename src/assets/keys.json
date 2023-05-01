@@ -324,10 +324,10 @@
     "width": "50px"
   },
   {
-    "code": "ControlLeft",
+    "code": "Fn",
     "keyENG": "fn",
     "keyENGCap": "fn",
-    "width": "50px"
+    "width": "48px"
   },
   {
     "code": "ControlLeft",
@@ -349,8 +349,8 @@
   },
   {
     "code": "Space",
-    "keyENG": "space",
-    "keyENGCap": "space",
+    "keyENG": "",
+    "keyENGCap": "",
     "width": "255px"
   },
   {
