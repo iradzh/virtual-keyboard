@@ -27,12 +27,11 @@ export default function renderKeyboard(keys) {
         textArea.value += "\n";
       } else if (code === "Tab") {
         textArea.value += "  ";
-      } else if (code === "CapsLock") {
-        textArea.value += " fix it ";
-      } else if (code === "ShiftLeft" || code === "ShiftRight") {
-        textArea.value += " fix it ";
       } else if (
-        code === "ControlLeft"
+        code === "ShiftLeft"
+        || code === "ShiftRight"
+        || code === "CapsLock"
+        || code === "ControlLeft"
         || code === "Fn"
         || code === "ControlRight"
         || code === "AltLeft"
@@ -41,7 +40,7 @@ export default function renderKeyboard(keys) {
         || code === "MetaRight"
       ) {
         textArea.value += "";
-      } else if (key && key.keyENG.match(/[a-zA-Z0-9]/)) {
+      } else if (key) {
         textArea.value += key.keyENG;
       }
     });
