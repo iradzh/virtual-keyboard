@@ -1,11 +1,11 @@
-export function handlePhysicalKeyboardInput() {
+export default function handlePhysicalKeyboardInput() {
   document.addEventListener("keydown", (event) => {
     event.preventDefault();
 
     const keyPressed = event.code;
     const keys = document.querySelectorAll(".key");
     const key = Array.from(keys).find(
-      (k) => k.getAttribute("data-code") === keyPressed
+      (k) => k.getAttribute("data-code") === keyPressed,
     );
     const textArea = document.querySelector(".text-area");
     if (key) {
@@ -26,7 +26,7 @@ export function handlePhysicalKeyboardInput() {
     const keyPressed = event.code;
     const keys = document.querySelectorAll(".key");
     const key = Array.from(keys).find(
-      (k) => k.getAttribute("data-code") === keyPressed
+      (k) => k.getAttribute("data-code") === keyPressed,
     );
     if (key) {
       key.classList.remove("active");

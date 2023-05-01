@@ -1,4 +1,4 @@
-export function createBase() {
+function createBase() {
   document.body.classList.add("body");
 
   const title = document.createElement("h1");
@@ -22,3 +22,5 @@ export function createBase() {
   document.body.appendChild(keyboardContainer);
   document.body.appendChild(subtitle);
 }
+
+export default createBase;

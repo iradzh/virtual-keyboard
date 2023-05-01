@@ -1,4 +1,4 @@
-export function renderKeyboard(keys) {
+export default function renderKeyboard(keys) {
   const container = document.querySelector(".keyboard-container");
 
   keys.forEach((key) => {
@@ -13,7 +13,6 @@ export function renderKeyboard(keys) {
       const clickedButton = event.target;
       const code = clickedButton.getAttribute("data-code");
       const textArea = document.querySelector(".text-area");
-      const key = keys.find((k) => k.code === code);
 
       if (code === "Space") {
         textArea.value += " ";
@@ -22,7 +21,6 @@ export function renderKeyboard(keys) {
       } else if (code === "Enter") {
         textArea.value += "\n";
       } else if (key && key.keyENG.match(/[a-zA-Z0-9]/)) {
-        // handle regular letters and digits
         textArea.value += key.keyENG;
       }
     });

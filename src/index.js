@@ -1,8 +1,8 @@
-import { createBase } from "./js/createBase";
-import { renderKeyboard } from "./js/renderKeyboard";
-import { handlePhysicalKeyboardInput } from "./js/handlePhysicalKeyboardInput";
+import createBase from "./js/createBase";
+import renderKeyboard from "./js/renderKeyboard";
+import handlePhysicalKeyboardInput from "./js/handlePhysicalKeyboardInput";
 
-window.onload = function () {
+window.onload = function handleLoading() {
   createBase();
   fetch("./assets/keys.json")
     .then((response) => response.json())
