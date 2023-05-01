@@ -1,0 +1,386 @@
+[
+  {
+    "code": "Backquote",
+    "keyENG": "~",
+    "keyENGCap": "`",
+    "width": "50px"
+  },
+  {
+    "code": "Digit1",
+    "keyENG": "1",
+    "keyENGCap": "!",
+    "width": "50px"
+  },
+  {
+    "code": "Digit2",
+    "keyENG": "2",
+    "keyENGCap": "@",
+    "width": "50px"
+  },
+  {
+    "code": "Digit3",
+    "keyENG": "3",
+    "keyENGCap": "#",
+    "width": "50px"
+  },
+  {
+    "code": "Digit4",
+    "keyENG": "4",
+    "keyENGCap": "$",
+    "width": "50px"
+  },
+  {
+    "code": "Digit5",
+    "keyENG": "5",
+    "keyENGCap": "%",
+    "width": "50px"
+  },
+  {
+    "code": "Digit6",
+    "keyENG": "6",
+    "keyENGCap": "^",
+    "width": "50px"
+  },
+  {
+    "code": "Digit7",
+    "keyENG": "7",
+    "keyENGCap": "&",
+    "width": "50px"
+  },
+  {
+    "code": "Digit8",
+    "keyENG": "8",
+    "keyENGCap": "*",
+    "width": "50px"
+  },
+  {
+    "code": "Digit9",
+    "keyENG": "9",
+    "keyENGCap": "(",
+    "width": "50px"
+  },
+  {
+    "code": "Digit0",
+    "keyENG": "0",
+    "keyENGCap": ")",
+    "width": "50px"
+  },
+  {
+    "code": "Minus",
+    "keyENG": "-",
+    "keyENGCap": "-",
+    "width": "50px"
+  },
+  {
+    "code": "Equal",
+    "keyENG": "=",
+    "keyENGCap": "+",
+    "width": "50px"
+  },
+  {
+    "code": "Backspace",
+    "keyENG": "delete",
+    "keyENGCap": "delete",
+    "width": "67px"
+  },
+  {
+    "code": "Tab",
+    "keyENG": "tab",
+    "keyENGCap": "tab",
+    "width": "66px"
+  },
+  {
+    "code": "KeyQ",
+    "keyENG": "q",
+    "keyENGCap": "Q",
+    "width": "50px"
+  },
+  {
+    "code": "KeyW",
+    "keyENG": "w",
+    "keyENGCap": "W",
+    "width": "50px"
+  },
+  {
+    "code": "KeyE",
+    "keyENG": "e",
+    "keyENGCap": "E",
+    "width": "50px"
+  },
+  {
+    "code": "KeyR",
+    "keyENG": "r",
+    "keyENGCap": "R",
+    "width": "50px"
+  },
+  {
+    "code": "KeyT",
+    "keyENG": "t",
+    "keyENGCap": "T",
+    "width": "50px"
+  },
+  {
+    "code": "KeyY",
+    "keyENG": "y",
+    "keyENGCap": "Y",
+    "width": "50px"
+  },
+  {
+    "code": "KeyU",
+    "keyENG": "u",
+    "keyENGCap": "U",
+    "width": "50px"
+  },
+  {
+    "code": "KeyI",
+    "keyENG": "i",
+    "keyENGCap": "I",
+    "width": "50px"
+  },
+  {
+    "code": "KeyO",
+    "keyENG": "o",
+    "keyENGCap": "O",
+    "width": "50px"
+  },
+  {
+    "code": "KeyP",
+    "keyENG": "p",
+    "keyENGCap": "P",
+    "width": "50px"
+  },
+  {
+    "code": "BracketLeft",
+    "keyENG": "[",
+    "keyENGCap": "{",
+    "width": "50px"
+  },
+  {
+    "code": "BracketRight",
+    "keyENG": "]",
+    "keyENGCap": "}",
+    "width": "50px"
+  },
+  {
+    "code": "IntlBackslash",
+    "keyENG": "|",
+    "keyENGCap": "\\",
+    "width": "50px"
+  },
+  {
+    "code": "CapsLock",
+    "keyENG": "caps lock",
+    "keyENGCap": "caps lock",
+    "width": "86px"
+  },
+  {
+    "code": "KeyA",
+    "keyENG": "a",
+    "keyENGCap": "A",
+    "width": "50px"
+  },
+  {
+    "code": "KeyS",
+    "keyENG": "s",
+    "keyENGCap": "S",
+    "width": "50px"
+  },
+  {
+    "code": "KeyD",
+    "keyENG": "d",
+    "keyENGCap": "D",
+    "width": "50px"
+  },
+  {
+    "code": "KeyF",
+    "keyENG": "f",
+    "keyENGCap": "F",
+    "width": "50px"
+  },
+  {
+    "code": "KeyG",
+    "keyENG": "g",
+    "keyENGCap": "G",
+    "width": "50px"
+  },
+  {
+    "code": "KeyH",
+    "keyENG": "h",
+    "keyENGCap": "H",
+    "width": "50px"
+  },
+  {
+    "code": "KeyJ",
+    "keyENG": "j",
+    "keyENGCap": "J",
+    "width": "50px"
+  },
+  {
+    "code": "KeyK",
+    "keyENG": "k",
+    "keyENGCap": "K",
+    "width": "50px"
+  },
+  {
+    "code": "KeyL",
+    "keyENG": "l",
+    "keyENGCap": "L",
+    "width": "50px"
+  },
+  {
+    "code": "Semicolon",
+    "keyENG": ";",
+    "keyENGCap": ":",
+    "width": "50px"
+  },
+  {
+    "code": "Quote",
+    "keyENG": "'",
+    "keyENGCap": "",
+    "width": "50px"
+  },
+  {
+    "code": "Enter",
+    "keyENG": "return",
+    "keyENGCap": "return",
+    "width": "88px"
+  },
+  {
+    "code": "ShiftLeft",
+    "keyENG": "shift",
+    "keyENGCap": "shift",
+    "width": "124px"
+  },
+  {
+    "code": "KeyZ",
+    "keyENG": "z",
+    "keyENGCap": "Z",
+    "width": "50px"
+  },
+  {
+    "code": "KeyX",
+    "keyENG": "x",
+    "keyENGCap": "X",
+    "width": "50px"
+  },
+  {
+    "code": "KeyC",
+    "keyENG": "c",
+    "keyENGCap": "C",
+    "width": "50px"
+  },
+  {
+    "code": "KeyV",
+    "keyENG": "v",
+    "keyENGCap": "V",
+    "width": "50px"
+  },
+  {
+    "code": "KeyB",
+    "keyENG": "b",
+    "keyENGCap": "B",
+    "width": "50px"
+  },
+  {
+    "code": "KeyN",
+    "keyENG": "n",
+    "keyENGCap": "N",
+    "width": "50px"
+  },
+  {
+    "code": "KeyM",
+    "keyENG": "m",
+    "keyENGCap": "M",
+    "width": "50px"
+  },
+  {
+    "code": "Comma",
+    "keyENG": ",",
+    "keyENGCap": "<",
+    "width": "50px"
+  },
+  {
+    "code": "Period",
+    "keyENG": ".",
+    "keyENGCap": ">",
+    "width": "50px"
+  },
+  {
+    "code": "Slash",
+    "keyENG": "/",
+    "keyENGCap": "?",
+    "width": "50px"
+  },
+  {
+    "code": "ArrowUp",
+    "keyENG": "↑",
+    "keyENGCap": "↑",
+    "width": "50px"
+  },
+  {
+    "code": "ShiftRight",
+    "keyENG": "Shift",
+    "keyENGCap": "Shift",
+    "width": "50px"
+  },
+  {
+    "code": "Fn",
+    "keyENG": "fn",
+    "keyENGCap": "fn",
+    "width": "48px"
+  },
+  {
+    "code": "ControlLeft",
+    "keyENG": "control",
+    "keyENGCap": "control",
+    "width": "52px"
+  },
+  {
+    "code": "AltLeft",
+    "keyENG": "option",
+    "keyENGCap": "option",
+    "width": "50px"
+  },
+  {
+    "code": "MetaLeft",
+    "keyENG": "command",
+    "keyENGCap": "command",
+    "width": "71px"
+  },
+  {
+    "code": "Space",
+    "keyENG": "",
+    "keyENGCap": "",
+    "width": "255px"
+  },
+  {
+    "code": "MetaRight",
+    "keyENG": "command",
+    "keyENGCap": "command",
+    "width": "71px"
+  },
+  {
+    "code": "AltRight",
+    "keyENG": "option",
+    "keyENGCap": "option",
+    "width": "50px"
+  },
+  {
+    "code": "ArrowLeft",
+    "keyENG": "←",
+    "keyENGCap": "←",
+    "width": "50px"
+  },
+  {
+    "code": "ArrowDown",
+    "keyENG": "↓",
+    "keyENGCap": "↓",
+    "width": "50px"
+  },
+  {
+    "code": "ArrowRight",
+    "keyENG": "→",
+    "keyENGCap": "→",
+    "width": "50px"
+  }
+]

@@ -1,0 +1,70 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f7;
+}
+
+.title {
+  font-family: "San Francisco", Arial, sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+.subtitle {
+  font-weight: 100;
+}
+
+.link {
+  font-family: "San Francisco", Arial, sans-serif;
+  text-align: center;
+  color: #1f1f1f;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-bottom: 1px solid #1f1f1f;
+}
+
+.text-area {
+  font-family: "Menlo", sans-serif;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.keyboard-container {
+  width: 830px;
+  height: 280px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 3px 3px 4px 3px;
+}
+
+.key {
+  margin: 4px;
+  font-size: 14px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  transition: all ease-in-out 0.1s;
+  cursor: pointer;
+  color: #000000;
+  background-color: #f6f6f9;
+}
+
+.key:hover {
+  background-color: #d9d9df;
+}
+
+.key:active,
+.active {
+  background-color: #a1a1a1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
